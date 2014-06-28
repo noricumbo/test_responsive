@@ -7,3 +7,6 @@ http://placehold.it/<br />
 http://css-tricks.com/snippets/css/clear-fix/<br />
 http://css-tricks.com/snippets/css/retina-display-media-query/<br />
 http://www.cupcakeipsum.com/<br />
+
+
+<strong>Jorge Noricumbo</strong>
