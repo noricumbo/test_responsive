@@ -1,0 +1,16 @@
+/* Small screen styles */
+
+header { height: 80px; background: url('http://placehold.it/500x80') top center; }
+
+nav a { display: block; margin: 0; padding: 10px 25px; }
+
+.nota {
+	float: none;
+	width: 100%;
+	margin-bottom: 3em;
+}
+
+.nota img { float: left; width: 90px; height: 90px; margin: 0 10px; }
+.nota h2 { margin: 0 0 0.5em 0; }
+
+footer { padding-left: 10px; }

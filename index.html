@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Configura las escalas iniciales y previene la rotación del sitio en el dispositivo -->
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+	<title>Test Responsive Web Design</title>
+	<!-- Normalize: resetea y escribe estilos globales para todos los navegadores -->
+	<link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+	<!-- Estilos globales y 'large' configurados por defecto para todos los anchos mayores a 801px -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style_large_screen.css">
+	<!-- Si el ancho del dispositivo es mayor a 500px y menor a 801 carga los estilos 'medium_screen' -->
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)" href="css/style_medium_screen.css">
+	<!-- Si el ancho del dispositivo es mayor a 50 y menor a 501px carga los estilos 'small' -->
+	<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href="css/style_small_screen.css">
+	<!--[if lt IE 9]>
+    	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="contenedor_principal group">
+
+		<!-- Encabezado general -->
+		<header>
+			<h1>Test Responsive Web Design</h1>
+		</header>
+
+		<!-- Navegación principal -->
+		<nav>
+			<a href="#">About us</a>
+			<a href="#">Sección 1</a>
+			<a href="#">Sección 2</a>
+			<a href="#">Contacto</a>
+		</nav>
+
+		<!-- Descripción del sitio -->
+		<div class="descripcion">
+			<h2>Hola, bienvenido</h2>
+			<p>Cupcake ipsum dolor sit amet brownie biscuit danish. Caramels I love oat cake jelly-o chupa chups soufflé ice cream chocolate bar jelly beans. I love marshmallow dessert ice cream caramels tart. I love cheesecake apple pie. Chupa chups ice cream caramels. I love I love lollipop I love biscuit lemon drops sweet chupa chups. Danish chocolate powder I love chupa chups.</p>
+		</div>
+
+		<!-- Nota 01 -->
+		<div class="nota">
+			<img src="http://placehold.it/150x150" alt="place holder image">
+			<h2>Título de nota</h2>
+			<p>Cupcake ipsum dolor sit amet brownie biscuit danish. Caramels I love oat cake jelly-o chupa chups soufflé ice cream chocolate bar jelly beans. I love marshmallow dessert ice cream caramels tart. I love cheesecake apple pie.</p>
+		</div>
+
+		<!-- Nota 02 -->
+		<div class="nota">
+			<img src="http://placehold.it/150x150" alt="place holder image">
+			<h2>Título de nota</h2>
+			<p>Cupcake ipsum dolor sit amet brownie biscuit danish. Caramels I love oat cake jelly-o chupa chups soufflé ice cream chocolate bar jelly beans. I love marshmallow dessert ice cream caramels tart. I love cheesecake apple pie.</p>
+		</div>
+
+		<!-- Nota 03 -->
+		<div class="nota">
+			<img src="http://placehold.it/150x150" alt="place holder image">
+			<h2>Título de nota</h2>
+			<p>Cupcake ipsum dolor sit amet brownie biscuit danish. Caramels I love oat cake jelly-o chupa chups soufflé ice cream chocolate bar jelly beans. I love marshmallow dessert ice cream caramels tart. I love cheesecake apple pie.</p>
+		</div>
+
+		<footer>
+			<p>&copy; Jorge Noricumbo - <a href="http://www.hacemoscodigo.com" title="Liga a Hacemos Código">HacemosCódigo.com</a></p>
+		</footer>
+
+	</div>
+</body>
+</html>

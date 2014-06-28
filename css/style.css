@@ -1,0 +1,54 @@
+/* Global styles */
+
+body {
+	background-color: #dedede;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+.contenedor_principal { 
+	max-width: 960px;
+	/*min-width: 300px;*/
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.7em; }
+h3 { font-size: 1.5em; }
+
+p { line-height: 1.5em; }
+
+header { height: 200px; background-color: #ccc; }
+header h1 { margin: 0; }
+
+nav { background-color: #333; color: #fff; }
+nav a { display: inline-block; color: #fff; text-decoration: none; padding: 15px 25px; }
+nav a:hover { background-color: #aaa;  }
+
+.descripcion { padding: 10px; }
+
+footer { background-color: #dedede; clear: both; }
+footer p { margin: 0; font-size: 0.8em; }
+
+/* Clear fix = Group (Revisar: http://css-tricks.com/snippets/css/clear-fix/) */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Media query para cambiar gráficos para retina display. Tienen que ser del doble del tamaño normal a 72dpi. Revisar también http://css-tricks.com/snippets/css/retina-display-media-query/ */
+@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min--moz-device-pixel-ratio: 2),
+	only screen and (-o-min-device-pixel-ratio: 2/1),
+	only screen and (min-device-pixel-ratio: 2),
+	only screen and (min-resolution: 192dpi),
+	only screen and (min-resolution: 2dppx)
+	{
+
+	}

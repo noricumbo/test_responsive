@@ -1,0 +1,22 @@
+/* Large screen styles */
+
+header { height: 200px; background: url('http://placehold.it/960x200') top center; }
+
+.nota { 
+	width: 33%; 
+	float: left; 
+	position: relative;
+}
+
+.nota img { float: left; margin: 10px 10px 0 10px; }
+.nota p { padding: 0 10px; }
+
+@media screen and (max-width: 980px) {
+	footer { padding-left: 10px; }
+}
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+/* Medium screen styles */
+
+header { height: 150px; background: url('http://placehold.it/800x150') top center; }
+
+.nota img { float: none; }
+.nota h2 { padding: 0 10px; }
+
+footer { padding-left: 10px; }
